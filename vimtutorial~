@@ -91,9 +91,18 @@ ino <left> <Nop>
 ino <right> <Nop>
 ino <up> <Nop>
 
+mapping:
+first arg is <key> or <key, key, key> 
+second arg is what to do
+i insert
+v visual
+n normal
+so:
+ino <left> <Nop> means insert mode left key no operation
 
 http://github.com/shawncplus/dotfiles
 
+he uses folders for his vimrc and sources them in his vimrc file
 has his vimrc file
 
 http://bytefluent.com/vivify/
@@ -102,6 +111,8 @@ has vim example color schemes
 
 vim.org is the best source for plugins
 
+iabbr email toddmblankenship@gmail.com
+will insert toddmblankenship@gmail.com everytime I type email in a file
 
-
-
+good plugins that should be required:
+NERDTree:  
