@@ -1,0 +1,117 @@
+Vim Tutorial
+
+Modes:
+	Insert: brush is on the canvas
+	Normal: moving brush around the canvas
+	Command: mixing pallete
+vim filename
+:edit filename
+
+pen to page:
+	i - enter insert mode
+	I - insert at first non-blank character
+	s - delete current char and enter insert
+	S - delete line under cursor and enter insert
+	a - enter insert after cursor
+	A - insert at end of line
+	o - insert on next line
+	O - insert on previous line????
+	C - delete from cursor to end of line
+	
+esc: goes back to normal mode
+
+DON'T USE THE MOUSE 
+hjkl move the cursor in normal mode
+
+10j moves cursor 10 lines down
+10k moves cursor 10 lines up
+
+Basics wWbBeE:
+w - move to the beginning of the next word
+W - move to the beginning of the next WORD. WORD skips commas etc
+b - backward - moves backwards words
+B - backward - WORD
+e - forward to the next end of word
+E - forward to the next end of word
+0 - move to beginning of line
+$ - move to end of line
+^ - move to first non-whitespace character of the line
+[optional]
+<required>
+[n]f<o> - forward to the (nth) o
+[n]F<o> - backward to the (nth) o
+[n]t<o> - forward to the (nth) o
+[n]T<o> - backward to the (nth) o
+
+/search
+? backward search
+:nohl turns highlight off
+
+* - Word under cursor search
+g* - unbounded search word under cursor
+n - next result forward
+N - next result back
+
+Copy/Paste
+y - Yank. example yw = yank word
+yy - Yank line
+p - paste after cursor
+P - paste before cursor
+
+v - enter visual mode
+
+gg - go to end of file
+shift g - go to beginning of file
+
+u - undo
+Ctrl-R - redo
+
+Block selection: selecting columns
+
+:w filename saves file
+:w saves file that already has filename
+esc enter normal mode
+: command mode
+:q quit file
+:wq save and quit
+
+
+Homework:
+vimrc
+_vimrc
+:e ~ 
+edit startup settings unmap arrow keys:
+no <down> <Nop>
+no <left> <Nop>
+no <right> <Nop>
+no <up> <Nop>
+
+ino <down> <Nop>
+ino <left> <Nop>
+ino <right> <Nop>
+ino <up> <Nop>
+
+mapping:
+first arg is <key> or <key, key, key> 
+second arg is what to do
+i insert
+v visual
+n normal
+so:
+ino <left> <Nop> means insert mode left key no operation
+
+http://github.com/shawncplus/dotfiles
+
+he uses folders for his vimrc and sources them in his vimrc file
+has his vimrc file
+
+http://bytefluent.com/vivify/
+
+has vim example color schemes
+
+vim.org is the best source for plugins
+
+iabbr email toddmblankenship@gmail.com
+will insert toddmblankenship@gmail.com everytime I type email in a file
+
+
