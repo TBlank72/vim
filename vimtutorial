@@ -110,11 +110,10 @@ http://bytefluent.com/vivify/
 has vim example color schemes
 
 vim.org is the best source for plugins
-
+abbreviation:
 iabbr email toddmblankenship@gmail.com
 will insert toddmblankenship@gmail.com everytime I type email in a file
 
 good plugins that should be required:
 NERDTree: Directory tree 
 youtube.com/sabittle
-
